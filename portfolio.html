@@ -4,46 +4,82 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="./css/normalize.css" />
-    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <!-- Styles -->
+    <!-- <link rel="stylesheet" type="text/css" href="./css/normalize.css" /> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+    <title>Portfolio</title>
   </head>
 
   <body>
-    <header>
-      <nav class="contacts">
-        <a href="./">WebStudio</a>
-        <ul>
-          <li><a href="./">Студия</a></li>
-          <li><a href="./portfolio.html">Портфолио</a></li>
-          <li><a href="#">Контакты</a></li>
+    <header class="header">
+      <nav class="navigation">
+        <a href="./" class="link logo">
+          Web<span class="logo-accent">Studio</span>
+        </a>
+        <ul class="list">
+          <li class="item-header"><a href="./" class="link"> Студия</a></li>
+          <li class="item-header">
+            <a href="./portfolio.html" class="link">Портфолио</a>
+          </li>
+          <li class="item-header"><a href="#" class="link">Контакты</a></li>
         </ul>
       </nav>
-      <ul class="contacts">
-        <li>
-          <a href="mailto:info@example.com">info@example.com</a>
+      <ul class="list">
+        <li class="item-header contact">
+          <a href="mailto:info@example.com" class="link">info@example.com</a>
         </li>
-        <li>
-          <a href="tel:+380991111111">+38 099 111 11 11</a>
+        <li class="item-header contact">
+          <a href="tel:+380991111111" class="link">+38 099 111 11 11</a>
         </li>
       </ul>
     </header>
     <main>
       <section>
-        <ul class="filter">
-          <li><button type="button">Все</button></li>
-          <li><button type="button">Веб-сайты</button></li>
-          <li><button type="button">Приложения</button></li>
-          <li><button type="button">Дизайн</button></li>
-          <li><button type="button">Маркетинг</button></li>
+        <ul class="list filter">
+          <li>
+            <button type="button" class="button button-filter">Все</button>
+          </li>
+          <li>
+            <button type="button" class="button button-filter">
+              Веб-сайты
+            </button>
+          </li>
+          <li>
+            <button type="button" class="button button-filter">
+              Приложения
+            </button>
+          </li>
+          <li>
+            <button type="button" class="button button-filter">Дизайн</button>
+          </li>
+          <li>
+            <button type="button" class="button button-filter">
+              Маркетинг
+            </button>
+          </li>
         </ul>
-        <h1>Наши работы</h1>
-        <ul>
+        <h1 class="visually-hidden">Наши работы</h1>
+        <ul class="list">
           <li>
             <article>
               <img src="./images/img.jpg" alt="Изображение сайта" width="370" />
-              <h2>Технокряк</h2>
-              <p>Веб-сайт</p>
+              <h2 class="title title-work">Технокряк</h2>
+              <p class="type-work">Веб-сайт</p>
             </article>
           </li>
           <li>
@@ -53,8 +89,8 @@
                 alt="Изображение постера"
                 width="370"
               />
-              <h2>Постер New Orlean vs Golden Star</h2>
-              <p>Дизайн</p>
+              <h2 class="title title-work">Постер New Orlean vs Golden Star</h2>
+              <p class="type-work">Дизайн</p>
             </article>
           </li>
           <li>
@@ -64,8 +100,8 @@
                 alt="Изображение логотипа приложения"
                 width="370"
               />
-              <h2>Ресторан Seafood</h2>
-              <p>Приложение</p>
+              <h2 class="title title-work">Ресторан Seafood</h2>
+              <p class="type-work">Приложение</p>
             </article>
           </li>
           <li>
@@ -75,8 +111,8 @@
                 alt="Изображение проекта по маркетингу"
                 width="370"
               />
-              <h2>Проект Prime</h2>
-              <p>Маркетинг</p>
+              <h2 class="title title-work">Проект Prime</h2>
+              <p class="type-work">Маркетинг</p>
             </article>
           </li>
           <li>
@@ -86,8 +122,8 @@
                 alt="Изображение логотипа приложения"
                 width="370"
               />
-              <h2>Проект Boxes</h2>
-              <p>Приложение</p>
+              <h2 class="title title-work">Проект Boxes</h2>
+              <p class="type-work">Приложение</p>
             </article>
           </li>
           <li>
@@ -97,8 +133,8 @@
                 alt="Изображение сайта"
                 width="370"
               />
-              <h2>Inspiration has no Borders</h2>
-              <p>Веб-сайт</p>
+              <h2 class="title title-work">Inspiration has no Borders</h2>
+              <p class="type-work">Веб-сайт</p>
             </article>
           </li>
           <li>
@@ -108,8 +144,8 @@
                 alt="Изображение идания"
                 width="370"
               />
-              <h2>Издание Limited Edition</h2>
-              <p>Дизайн</p>
+              <h2 class="title title-work">Издание Limited Edition</h2>
+              <p class="type-work">Дизайн</p>
             </article>
           </li>
           <li>
@@ -119,8 +155,8 @@
                 alt="Изображение проекта по маркетингу"
                 width="370"
               />
-              <h2>Проект LAB</h2>
-              <p>Маркетинг</p>
+              <h2 class="title title-work">Проект LAB</h2>
+              <p class="type-work">Маркетинг</p>
             </article>
           </li>
           <li>
@@ -130,21 +166,25 @@
                 alt="логотипа приложения"
                 width="370"
               />
-              <h2>Growing Business</h2>
-              <p>Приложение</p>
+              <h2 class="title title-work">Growing Business</h2>
+              <p class="type-work">Приложение</p>
             </article>
           </li>
         </ul>
       </section>
     </main>
-    <footer>
-      <a href="#">WebStudio</a>
+    <footer class="footer">
+      <a href="./" class="link logo">
+        Web<span class="logo-invert-accent">Studio</span>
+      </a>
       <address>
-        <ul class="contacts">
-          <li>г. Киев, пр-т Леси Украинки, 26</li>
-          <li><a href="mailto:info@example.com">info@example.com</a><br /></li>
-          <li>
-            <a href="tel:+380991111111">+38 099 111 11 11</a>
+        <ul class="list">
+          <li class="item-footer">г. Киев, пр-т Леси Украинки, 26</li>
+          <li class="item-footer contact">
+            <a href="mailto:info@example.com" class="link">info@example.com</a>
+          </li>
+          <li class="item-footer contact">
+            <a href="tel:+380991111111" class="link">+38 099 111 11 11</a>
           </li>
         </ul>
       </address>
