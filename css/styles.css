@@ -51,6 +51,10 @@ body {
   line-height: 1.167; /* 42/36; */
 }
 
+.current{
+  color: var(--accent-light-color: #2196f3;);
+}  
+
 /* Семантичне скриття елементів */
 .visually-hidden {
   position: absolute;
