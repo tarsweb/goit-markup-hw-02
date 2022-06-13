@@ -52,7 +52,7 @@ body {
 }
 
 .current{
-  color: var(--accent-light-color: #2196f3;);
+  color: var(--accent-light-color);
 }  
 
 /* Семантичне скриття елементів */
