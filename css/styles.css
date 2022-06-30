@@ -33,12 +33,13 @@ body {
   list-style: none;
 }
 
-.button {
+.button {  
+  color: var(--main-light-color);
+  background-color: var(--accent-light-color);
+  
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border: none;
   border-radius: 4px;
-  color: var(--main-light-color);
-  background-color: var(--accent-light-color);
 }
 
 .title {
