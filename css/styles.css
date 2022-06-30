@@ -87,6 +87,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.192; /* 31/26; */
+  
   color: var(--accent-light-color);
 }
 
@@ -107,6 +108,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  
   color: var(--main-light-color);
 }
 
@@ -125,6 +127,7 @@ body {
 
 .our-edge-description {
   line-height: 1.714; /* 24/14 */
+  
   color: var(--primary-light-color);
 }
 
@@ -141,6 +144,7 @@ body {
 .our-team-position {
   font-size: 16px;
   line-height: 1.187; /* 19/16 */
+  
   color: var(--primary-light-color);
 }
 
