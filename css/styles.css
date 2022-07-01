@@ -159,6 +159,11 @@ body {
   background-color: var(--background-light-color);
 }
 
+.current-button {
+  color: var(--main-light-color);
+  background-color: var(--accent-light-color);
+}
+
 .button-filter:hover,
 .button-filter:focus {
   color: var(--main-light-color);
